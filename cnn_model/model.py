@@ -1,4 +1,3 @@
-
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -11,7 +10,7 @@ from keras.utils import to_categorical
 import keras
 
 
-# ### loading mist hand written dataset
+# Hand written dataset
 
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
 print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
@@ -19,32 +18,32 @@ print(X_train.shape, y_train.shape, X_test.shape, y_test.shape)
 
 
 
-# ## Applying threshold for removing noise 
+# Applying threshold for removing noise 
 
 _,X_train_th = cv2.threshold(X_train,127,255,cv2.THRESH_BINARY)
 _,X_test_th = cv2.threshold(X_test,127,255,cv2.THRESH_BINARY)
 
 
 
-# ### Reshaping 
+# Reshaping 
 
 X_train = X_train_th.reshape(-1,28,28,1)
 X_test = X_test_th.reshape(-1,28,28,1)
 
 
-# ### Creating categorical output from 0 to 9
+# Creating categorical output from 0 to 9
 
 y_train = to_categorical(y_train, num_classes = 10)
 y_test = to_categorical(y_test, num_classes = 10)
 
 
-# ## cross checking shape of input and output
+# cross checking shape of input and output
 
 print(X_train.shape, y_train.shape)
 print(X_test.shape, y_test.shape)
 
 
-# # Creating CNN model
+# Creating CNN model
 
 input_shape = (28,28,1)
 number_of_classes = 10
