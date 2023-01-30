@@ -32,7 +32,7 @@ So below is a list of several modules or libraries or algorithms needed for runn
 
 6.NumPy: It's a library for the python programming language adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
-7.Matplotlib: It's a plotting library for the python programming language and it�s numerical mathematical extension NumPy.
+7.Matplotlib: It's a plotting library for the python programming language and it's numerical mathematical extension NumPy.
 
 8.Support Vector Classifier [SVC]: It's a supervised machine learning algorithm typically used for classification of tasks.
 
