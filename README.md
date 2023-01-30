@@ -24,7 +24,7 @@ So below is a list of several modules or libraries or algorithms needed for runn
 
 2.keras: It's an open-source software library that provides a python interface for artificial neural networks. It acts as an interface for the TensorFlow library.
 
-3.TenserFlow: It's a free and open-source software library for machine learning and artificial intelligence. It�s used in training and inference of deep neural networks.
+3.TenserFlow: It's a free and open-source software library for machine learning and artificial intelligence. It's used in training and inference of deep neural networks.
 
 4.OpenCV: It's a library of programming functions mainly aimed at real-time computer vision.
 
