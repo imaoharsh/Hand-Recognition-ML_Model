@@ -38,5 +38,10 @@ So below is a list of several modules or libraries or algorithms needed for runn
 
 
 That's all and the working of the application is shown in the demo video.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c13d77e99446ec814e1ba79bfbf0d32eaf6323d
 
+THANK YOU!
+From Team Solivers.
